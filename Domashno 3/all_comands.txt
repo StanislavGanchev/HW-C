@@ -1,0 +1,4 @@
+gcc main.c transformation.o -o my_program
+gcc transformation.c -o transformationLinked
+gcc -E preprocessing.c -o preprocessingDone.c
+gcc -c complying.c -o complyingDone.c
